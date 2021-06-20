@@ -22,6 +22,8 @@
              <br>
              <input type="submit" value="Log in">
         </form>
-
+ <c:if test="${invalid}">
+            <p>Invalid login.</p>
+        </c:if>
     </body>
 </html>
